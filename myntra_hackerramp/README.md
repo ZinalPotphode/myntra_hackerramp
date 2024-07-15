@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Myntra HackerRamp Team: Coded Angels
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Problem Statement: Engagement on a shopping platform
 
-## Available Scripts
+## Tech Stack Used:
 
-In the project directory, you can run:
+- ReactJs
+- Node
+- Express.js
+- Javascript
+- Cascading Style Sheets(CSS)
 
-### `npm start`
+## Steps to run the project on your local device:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/ZinalPotphode/myntra_hackerramp
+cd myntra_hackerramp/myntra_hackerramp
+```
 
-### `npm test`
+2. Install all the dependencies(Make sure to have npm installed on your device)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+3. Start Development Server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Steps for Contributing:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Default branch: website
 
-### `npm run eject`
+Do not mess with the website branch
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Clone your local repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/[username]/myntra_hackerramp
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Make code changes.
 
-## Learn More
+4. Add and Commit changes, and Push to your local repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Fetch upstream for fetching any remote code changes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Open a pull request.
 
-### Code Splitting
+## Project File Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+├───Database
+│   ├───db
+│   ├───server
+|
+├───public
+│   └───images
+|
+├───src
+│   ├───Admin
+│   │   
+│   ├───assets
+│   │   
+│   ├───Components
+│   │   ├───Navbar
+│   │   ├───Footer
+│   │   
+│   ├───Pages  
+│   │   
+│   ├───Redux
+│   │   
+│   ├───Styles
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
