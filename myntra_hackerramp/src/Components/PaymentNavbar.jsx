@@ -34,7 +34,7 @@ function PaymentNavbar() {
       >
         <Box>
           <Link to="/" >
-            <Image src={'/Logo.jpg'} alt="logo" w={["50px", "60px", "70px"]} pl={2} />
+            <Image src={'/tit.webp'} alt="logo" w={["50px", "60px", "70px"]} pl={2} />
           </Link>
         </Box>
         <HStack spacing={[2, 3, 4]} >

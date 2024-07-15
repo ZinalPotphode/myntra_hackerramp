@@ -238,7 +238,7 @@ const Navbar = () => {
               </Link>
             </span>
           </p>
-          <p style={{ marginLeft: "2%", cursor: "pointer" }}>
+          {/* <p style={{ marginLeft: "2%", cursor: "pointer" }}>
             <span>
               <Link to={"/wishlist"} className="rightLink">
               <img
@@ -254,7 +254,7 @@ const Navbar = () => {
                 Wishlist
               </Link>
             </span>
-          </p>
+          </p> */}
 
           <p
             style={{
@@ -271,12 +271,12 @@ const Navbar = () => {
                 marginLeft: "15%",
                 fontSize: "12px",
                 width: "20px",
-                marginBottom: "5px",
+                marginBottom: "3px",
               }}
-              src="https://cdn-icons-png.flaticon.com/512/1174/1174408.png"
+              src="contest.png"
               alt=""
             />
-                Bag
+                Contest
               </Link>
             </span>
           </p>
@@ -290,7 +290,7 @@ const Navbar = () => {
             }}
           >
             <span>
-              <Link to={"/admin-dashboard"} className="rightLink">
+              <Link to={"/quizzes"} className="rightLink">
                 <img
                   style={{
                     marginLeft: "15%",
@@ -298,10 +298,10 @@ const Navbar = () => {
                     width: "20px",
                     marginBottom: "5px",
                   }}
-                  src="/admin.png"
+                  src="/quiz.png"
                   alt=""
                 />
-                Admin
+                Quiz
               </Link>
             </span>
           </p>
@@ -315,17 +315,19 @@ const Navbar = () => {
                style={{
                 marginLeft: "15%",
                 fontSize: "12px",
-                width: "2.5rem",
+                width: "3rem",
                 marginBottom: "5px",
               }}
-               src={coins} alt="">
+               src="/coins.png" alt="">
                </img>
                <span
                style={{
                 display:"flex",
                 justifyContent:"center",
                 alignItems:"center",
-                paddingLeft:"0.8rem"
+                paddingLeft:"0.2rem",
+                fontSize:"1rem",
+                fontWeight:"bold"
                }}
                >
                 <CoinCounter/>
