@@ -80,6 +80,3 @@ git clone https://github.com/[username]/myntra_hackerramp
 
 ```
 
-## Backend Folder link:
-
-[Github](https://github.com/ZinalPotphode/myntra_hackerramp/Database)
