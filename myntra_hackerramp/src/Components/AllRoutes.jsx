@@ -24,7 +24,11 @@ import AdminDashboard from "../Admin/AdminDashboard";
 import AddProductsPage from "../Admin/AddProductsPage";
 import UsersPage from "../Admin/UsersPage";
 import AdminProfilePage from "../Admin/AdminProfilePage";
+<<<<<<< HEAD
 import QuizPage from "../Pages/QuizPage";
+=======
+import Rewards from "./Navbar/Card/rewards";
+>>>>>>> 3afc1eef4b97b6cf584138797c9db3a58df0bddc
 // import { useNavigate } from "react-router-dom";
 
 const AllRoutes = () => {
@@ -66,7 +70,11 @@ const AllRoutes = () => {
         <Route path="/admin-kids" element={<KidsPage />}></Route>
         <Route path="/admin-users" element={<UsersPage />}></Route>
         <Route path="/admin-profile" element={<AdminProfilePage />}></Route>
+<<<<<<< HEAD
         <Route path="/quizzes" element={<QuizPage/>}></Route>
+=======
+        <Route path="/rewards" element={<Rewards />}></Route>
+>>>>>>> 3afc1eef4b97b6cf584138797c9db3a58df0bddc
       </Routes>
     </div>
   );
