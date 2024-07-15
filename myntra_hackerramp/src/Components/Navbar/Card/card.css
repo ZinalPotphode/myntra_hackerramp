@@ -1,0 +1,39 @@
+/* src/components/Card.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin: 0 0 10px;
+  }
+  
+  .card-description {
+    margin: 0 0 10px;
+  }
+  
+  .card-cost {
+    margin: 10px 0;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  

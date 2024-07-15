@@ -7,7 +7,11 @@ import { KidsNav } from "./Kids";
 import { HomeLivingNav } from "./Home&Living";
 import { MenNav } from "./Men";
 import { StudioNav } from "./Studio";
-import { getData } from "../../Pages/storage";
+import coins from "../../assets/svg/coins.svg";
+// import store from "../../assets/svg/store.svg";
+import CoinCounter from "./coinCount";
+// import Rewards from "./Card/rewards.jsx";
+// import { getData } from "../../Pages/storage";
 
 const Div = styled.nav`
   position: fixed;
@@ -302,7 +306,45 @@ const Navbar = () => {
             </span>
           </p>
           {/* </Link> */}
+            <div
+            style={{
+              display:"flex",
+            }}
+            >
+               <img 
+               style={{
+                marginLeft: "15%",
+                fontSize: "12px",
+                width: "2.5rem",
+                marginBottom: "5px",
+              }}
+               src={coins} alt="">
+               </img>
+               <span
+               style={{
+                display:"flex",
+                justifyContent:"center",
+                alignItems:"center",
+                paddingLeft:"0.8rem"
+               }}
+               >
+                <CoinCounter/>
+               </span>
+            </div>
+            {/* <div>
+              <img
+              style={{
+                marginLeft: "15%",
+                fontSize: "12px",
+                width: "2.5rem",
+                marginBottom: "5px",
+              }} 
+              src={store} alt="">
+              </img>
+              <Rewards/>
+            </div> */}
         </div>
+
       </Div>
     </>
   );
