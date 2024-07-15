@@ -1,0 +1,99 @@
+.start{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 214, 220);
+    height: 100vh;
+}
+.white_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.3rem;
+    border-radius: 2%;
+    margin: 0.5rem;
+
+}
+.white_box span{
+    margin-bottom: 2rem;
+}
+.white_box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 3rem;
+    border-radius: 2%;
+    margin: 0.5rem;
+    width: 35rem;
+
+}
+.thankyou{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.text{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+.button{
+    margin-top: 2rem;
+    background-color: rgb(11, 242, 46);
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius: 2%;
+}
+.button:hover{
+    background-color: rgb(23, 183, 23);
+}
+.quiz_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 40rem;
+    padding: 1.5rem;
+    border-radius: 2%;
+}
+.time{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.question{
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.options{
+    display: flex;    
+    justify-content: center;
+    align-items: center; 
+    width: 80%;
+    background-color: rgb(210, 117, 241);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 2%;
+
+}
+.options:hover{
+    background-color: rgb(117, 241, 144);
+}

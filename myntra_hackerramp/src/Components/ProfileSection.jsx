@@ -171,7 +171,7 @@ export default function ProfileSection() {
                 colorScheme="pink"
                 fontSize="sm"
               >
-                Vastra Insider
+                Myntra Insider
                 <Tag
                   size={"sm"}
                   bg={useColorModeValue("pink.500", "green.800")}
@@ -190,7 +190,7 @@ export default function ProfileSection() {
                 colorScheme="pink"
                 fontSize="sm"
               >
-                Vastra Credit
+                Myntra Credit
               </Button>
               <Button
                 w="auto"

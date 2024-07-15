@@ -1,5 +1,5 @@
 {
-  "name": "database",
+  "name": "vastra-database",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.1",
+    "nodemon": "^3.1.4"
   }
 }

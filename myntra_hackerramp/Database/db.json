@@ -1,5 +1,38 @@
-{
-    
+{    "Quizzes": [
+    {
+      "date": "2024-07-15",
+      "questions": [
+        {
+          "question": "What Indian city does the Kanjeevaram weave come from?",
+          "answers": [
+            { "text": "Patna", "isCorrect": false },
+            { "text": "Kolkata", "isCorrect": false },
+            { "text": "Pune", "isCorrect": false },
+            { "text": "Kanchipuram", "isCorrect": true }
+          ]
+        },
+        {
+            "question": "Which fashion designer is known for his iconic, minimalistic designs and use of black and white colors?",
+            "answers": [
+              { "text": "Calvin Klein", "isCorrect": true },
+              { "text": "Karl Lagerfeld", "isCorrect": false },
+              { "text": "Tom Ford", "isCorrect": false },
+              { "text": "Yves Saint Laurent", "isCorrect": false }
+            ]
+          },
+        {
+          "question": "Which type of fabric is derived from silkworms and is known for its luxurious, smooth texture?",
+          "answers": [
+            { "text": "Cotton", "isCorrect": false },
+            { "text": "Satin", "isCorrect": true },
+            { "text": "Wool", "isCorrect": false },
+            { "text": "Denim", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "UsersList": [],
     "MensData":[
         {
         "id": "M1",
@@ -6620,10 +6653,10 @@
     "UsersList":[
         {
             "id":1,
-            "name": "Devendra Singh",
-            "email": "dev@gmail.com",
-            "password": "dev12345",
-            "contact": "1234567800",
+            "name": "Zinal Potphode",
+            "email": "z@gmail.com",
+            "password": "z12345",
+            "contact": "1234567899",
             "isAuth":true,
             "logindetails": {
                 "createdAt": "",
@@ -6635,10 +6668,10 @@
         },
         {
             "id":1,
-            "name": "Prince Sharma",
-            "email": "ps@gmail.com",
-            "password": "ps12345",
-            "contact": "1234567888",
+            "name": "Nandini Singh",
+            "email": "n@gmail.com",
+            "password": "n12345",
+            "contact": "1234567890",
             "isAuth":true,
             "logindetails": {
                 "createdAt": "",
@@ -6650,9 +6683,9 @@
         },
         {
             "id":1,
-            "name": "Ravi",
-            "email": "Ravi@gmail.com",
-            "password": "Ravi12345",
+            "name": "Riya",
+            "email": "Riya@gmail.com",
+            "password": "ri12345",
             "contact": "1234567800",
             "isAuth":true,
             "logindetails": {
@@ -6680,9 +6713,9 @@
         }
     ],
     "AdminData":{"id":1,
-            "name":"Devendra Singh",
-            "email":"dev@gmail.com",
-            "password":"dev12345",
+            "name":"Zinal Potphode",
+            "email":"z@gmail.com",
+            "password":"z12345",
             "contact":12345
         },
         "CurrentUser":{

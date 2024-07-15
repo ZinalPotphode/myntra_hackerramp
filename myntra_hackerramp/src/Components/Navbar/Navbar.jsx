@@ -44,7 +44,7 @@ const Navbar = () => {
               marginLeft: "15%",
               // marginRight: "30%",
             }}
-            src="/Logo.jpg"
+            src="/Myntra_logo.png"
             // src={V_Logo}
             alt=""
           />

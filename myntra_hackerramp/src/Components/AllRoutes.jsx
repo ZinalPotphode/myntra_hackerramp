@@ -24,6 +24,7 @@ import AdminDashboard from "../Admin/AdminDashboard";
 import AddProductsPage from "../Admin/AddProductsPage";
 import UsersPage from "../Admin/UsersPage";
 import AdminProfilePage from "../Admin/AdminProfilePage";
+import QuizPage from "../Pages/QuizPage";
 // import { useNavigate } from "react-router-dom";
 
 const AllRoutes = () => {
@@ -65,6 +66,7 @@ const AllRoutes = () => {
         <Route path="/admin-kids" element={<KidsPage />}></Route>
         <Route path="/admin-users" element={<UsersPage />}></Route>
         <Route path="/admin-profile" element={<AdminProfilePage />}></Route>
+        <Route path="/quizzes" element={<QuizPage/>}></Route>
       </Routes>
     </div>
   );

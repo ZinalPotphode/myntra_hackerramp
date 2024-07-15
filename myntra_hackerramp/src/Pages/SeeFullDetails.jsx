@@ -42,9 +42,11 @@ export const SeeFullDetails = () => {
       <div>
         <Navbar />
         <div className="Login_Master">
-          <div>
+        
+          <div className="up_image">
+          <span>Badges</span> 
             <img
-              src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/1/25/f5e9a029-33c3-4a92-811b-ef7917fe6d441674670210687-offer-banner-300-600x240-code-_-MYNTRA300.jpg"
+              src="/50badge.png"
               alt="Error"
             />
           </div>
@@ -87,7 +89,7 @@ export const SeeFullDetails = () => {
             </div>
 
             <div className="termsAndCondition">
-              <p>Have you need of anything?</p>
+              <p>Have you a need of anything?</p>
               <h1>Get Help</h1>
             </div>
           </div>
